@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <meta charset='utf-8'>
+	<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Page</title>
+	<style>
+		@import "../../node_modules/boostrap/scss/bootstrap-grid.scss";
+		@import url('https://rsms.me/inter/inter.css');
+		html { font-family: 'Inter', sans-serif; 
+		font-size: 16px;
+		}
+		@supports (font-variation-settings: normal) {
+ 		 html { font-family: 'Inter var', sans-serif; 
+    	font-size: 16px;
+  		}	
+		}
+		@import "breakpoints";
+		body
+		{
+			font-family: Inter;
+		}
+		.btnstl
+		{
+			color: grey;
+		}
+		.btnstltwo
+		{
+			color:#F9F5FF; 
+			background-color:#7F56D9;
+			border-color: #7F56D9;
+		}
+		.promo
+		{
+			margin-top: 96px;
+			margin-bottom: 96px;
+		}
+		.block
+		{
+			height: 100%;
+		}
+		.txtcnt
+		{
+			margin-top: 24px;
+			color: #667085;
+			font-size: 20px;
+		}
+		.txtcnttwo
+		{
+			margin-top: 24px;
+			color: #667085;
+			font-size: 18px;
+		}
+		.mrinp
+		{
+			margin-top:48px;
+		}
+		.imgsize
+		{
+			width:559px;
+			height:655px;
+			margin-left: 64px;
+		}
+		.mrh1
+		{
+			text-align: center;
+			font-size: 30px;
+		}
+		.pstl
+		{
+			margin-top: 96px;
+			color:#6941C6;
+			text-align: center;
+			font-size: 16px;
+		}
+		.pstltwo
+		{
+			margin-top: 8px;
+			color:#667085;
+			text-align: center;
+			font-size: 16px;
+		}
+		.imgnum
+		{
+			margin-top: 64px;
+			margin-bottom: 20px;
+		}
+		.btnstlthree
+		{
+			margin-top: 48px;
+			margin-bottom: 192px;
+			width: 246px;
+			height: 48px;
+			color:#F9F5FF; 
+			background-color:#7F56D9;
+			font-size: 18px;
+		}
+		.wrapper 
+		{
+    		text-align: center;
+		}
+		.imgmap
+		{
+			content: url("Map wrap.png");
+			display: block;
+   			margin: 0 auto;
+			margin-top: 65px;
+			margin-bottom: 65px;
+		}
+		@media (max-width: 1000px)
+		{
+			.navbarbtn
+			{
+				margin: 0%;
+				color:black;
+			}
+			.btnsize
+			{
+				width: 500px;
+			}
+			.btnstl
+			{
+				border-radius: 4px;
+				width: 500px;
+				color:#7F56D9; 
+				background-color:#F9F5FF;
+			}
+			.btnstltwo
+			{
+				color:#F9F5FF;
+				background-color:#7F56D9;
+				background-image: url("icon.png");
+				background-size: 45%;
+				background-position: 50% 50%;
+				width: 48px;
+				height: 48px;
+				background-repeat : no-repeat;
+				font-size: 0;
+			}
+			.promo
+			{
+				margin-top: 64px;
+			}
+			.imgsize
+			{
+				width:296px;
+				height:347px;
+				margin-top: 64px;
+			}
+			.mrinp
+			{
+				margin-top: 32px;
+			}
+			.txtcnt
+			{
+				margin-top: 16px;
+				color: #667085;
+				font-size: 18px;
+			}
+			.txtcnttwo
+			{
+				margin-top: 20px;
+				color: #667085;
+				font-size: 18px;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!--NavBar-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white navbar border-bottom border-grey">
+	<div class="container">
+	<a class="navbar-brand d-inline-block align-text-top " style="margin-left: 10px; font-weight:bold;" href="#"> <img src="Content.png" alt="" width="32" height="32" >
+			  GST</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			 <li class="nav-item">
+				<a class="nav-link" href="#">Accueil</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Tarifs</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">FAQ</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			  </li>
+		  </li>
+		</ul>
+
+		<!--<div class="navbar border-top border-grey" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"></div>-->		
+		<form class="d-flex">
+			<button type="button" class="btn btnstl">Connexion</button>
+		</form>
+
+		<form class="d-flex">
+		  <button type="button" class="btn btn-primary btn-block btnsize" style="background-color: #7F56D9;">Créer un compte</button>
+		</form>
+	  </div>
+	  
+	</div>
+  </nav>
+
+  <div class="container">
+	  <section class="promo row">
+		  <div class="col-md-6">
+			  <div class="block">
+				  <h1>Appels internationaux à tarifs avantageux</h1>
+				  <p class="txtcnt">GST vous permet de passer  des appels internationaux 3 fois moins cher que votre opérateur et ceux sans attente ni inscription.</p>
+				  
+				  <p class="txtcnttwo"><img src="Check icon.png" width="20" height="20" style="margin-right: 12px;">Tarif unique depuis un fixe ou un mobile</p>
+				  <p class="txtcnttwo"><img src="Check icon.png" width="20" height="20" style="margin-right: 12px;">Facturation à la seconde</p>
+				  <p class="txtcnttwo"><img src="Check icon.png" width="20" height="20" style="margin-right: 12px;">Utilisation immédiate</p>
+				  
+				  <form class="d-flex mrinp">
+					<input class="form-control me-2" type="search" placeholder="Tapez le nom du pays que vous souhaitez appeler" aria-label="Search">
+					<button type="button" class="btn btn-primary btn-block btnstltwo">Rechercher</button>
+				  </form>
+			  </div>
+		  </div>
+		  <div class="col-md-6">
+			<img src="315vPGsAFUk.png" alt="" class="imgsize" >
+		  </div>
+	  </section>
+  </div>
+  <div class="navbar border-top border-grey" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"></div>
+
+  <div class="container">
+	<p class="pstl">Comment appeler avec GST ?</p>
+  	<h1 class="mrh1">Utilisez GST en 3 étapes</h1>
+	  <div class="row" style="text-align: center;">
+			<h3 class="col-md-4"><img src="Featured icon_1.png" alt="" class="imgnum" width="48" height="48"><p>Choisir un pays<p class="pstltwo">Composez le numéro d'accès du pays que vous souhaitez appeler</p></p></h3>
+			<h3 class="col-md-4"><img src="Featured icon_2.png" alt="" class="imgnum" width="48" height="48"><p>Entrez le numéro<p class="pstltwo">Au signal, composez le numéro de votre correspondant</p></p></h3>
+			<h3 class="col-md-4"><img src="Featured icon_3.png" alt="" class="imgnum" width="48" height="48"><p>Parlez<p class="pstltwo">Vous êtes mis en relation avec votre correspondant au tarif GST</p></p></h3>
+	  </div>
+	  <div class="wrapper">
+	  	<button type="button" class="btn btn-primary btn-block btnstlthree" style="background-color: #7F56D9;">Créer un compte</button>
+	  </div>
+  </div>
+
+  <div class="container">
+	<h1 class="mrh1">Nos destinations phares</h1>
+	<div style="text-align: center;">
+		<div class="imgmap"></div>
+	</div>
+	<div class="wrapper">
+		<button type="button" class="btn btn-primary btn-block btnstlthree" style="background-color: #7F56D9;">Créer un compte</button>
+	</div>
+  </div>
+</body>
+</html>
